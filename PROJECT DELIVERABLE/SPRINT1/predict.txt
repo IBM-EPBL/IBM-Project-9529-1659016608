@@ -1,0 +1,20 @@
+
+TEAM ID: PNT2022TMID49425
+PROJECT NAME:Smart lender-Applicant Credibility for loan approval
+PROJECT DELIVERABLE - SPRINT1
+predict.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOAN PREDICTION </title>
+</head>
+<body>
+    <h1> The loan predicted eligibility is </h1>
+    <h1>{{predict}}</h1>
+    <a href="/">Go Back</a>
+</body>
+</html>

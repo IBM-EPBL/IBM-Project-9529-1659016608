@@ -1,0 +1,47 @@
+TEAM ID: PNT2022TMID49425
+PROJECT NAME:Smart lender-Applicant Credibility for loan approval
+PROJECT DELIVERABLE - SPRINT1
+Index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOAN PREDICTION</title>
+</head>
+<body>
+    <h1>LOAN PREDICTION </h1>
+    <h2>Using Random Forest Classifier</h2>
+<form method="POST"action="/predict">
+     <p>LOAN ID</p>
+     <input name="li" required>
+     <p>NAME</p>
+     <input name="na" required>
+     <p>GENDER</p>
+     <input name="ge" required>
+     <p>MARRIED</p>
+     <input name="md" required>
+     <p>DEPENDENTS</p>
+     <input name="de" required>
+     <p>EDUCATION</p>
+     <input name="ed" required>
+     <p>SELF EMPLOYED</p>
+     <input name="se" required>
+     <p>APPLICANT INCOME</p>
+     <input name="ai" required>
+     <p>CO APPLICANT INCOME</p>
+     <input name="ca" required>
+     <p>LOAN AMOUNT </p>
+     <input name="la" required>
+     <p>LOAN AMOUNT TERM</p>
+     <input name="lat" required>
+     <p>CREDIT HISTORY</p>
+     <input name="ch" required>
+     <p>PROPERTY AREA</p>
+     <input name="pa" required>
+     <p>LOAN STATUS</p>
+     <input name=""ls" required>
+</body>
+</html>
